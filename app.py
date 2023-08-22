@@ -10,7 +10,7 @@ def save_to_blob(file):
     blob_client = blob_service_client.get_blob_client(container=CONTAINER_NAME, blob=file.name)
     blob_client.upload_blob(file.getvalue())
 
-st.title('Azure Blob Storage Uploader!!')
+st.title('Azure Blob Storage Uploader!!!')
 
 uploaded_file = st.file_uploader("Choose a file")
 
