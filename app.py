@@ -4,7 +4,7 @@ from azure.storage.blob import BlobServiceClient
 
 # Get Azure Storage account details from environment variables
 azure_connection_string = "DefaultEndpointsProtocol=https;AccountName=adachitakehiro;AccountKey=B3Px4aJ9dBCJJQAkCW6ZRDJFqYk7E6EYNgosHvbloU3+6QTNV2cmq/w3vFtpj0C4eMvA2VzscIv7+ASt61DFww==;EndpointSuffix=core.windows.net"
-azure_container_name = "emocontainer1"
+azure_container_name = "democontainer1"
 
 def main():
     st.title("File Upload to Azure Storage")
