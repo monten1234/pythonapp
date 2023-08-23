@@ -31,6 +31,10 @@ def upload_to_azure_storage(file, file_name):
         # Upload the file contents to Azure Storage
         blob_client.upload_blob(file, overwrite=True)
 
+        # ファイルのURLを取得
+        blob_url = blob_client.url
+        return blob_url
+
         return True
     except Exception as e:
         print(e)
