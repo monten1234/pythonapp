@@ -2,8 +2,8 @@ import streamlit as st
 from azure.storage.blob import BlobServiceClient
 
 # Azure接続情報
-CONNECTION_STRING = 'YOUR_AZURE_STORAGE_CONNECTION_STRING'
-CONTAINER_NAME = 'your-container-name'
+CONNECTION_STRING = 'DefaultEndpointsProtocol=https;AccountName=adachitakehiro;AccountKey=B3Px4aJ9dBCJJQAkCW6ZRDJFqYk7E6EYNgosHvbloU3+6QTNV2cmq/w3vFtpj0C4eMvA2VzscIv7+ASt61DFww==;EndpointSuffix=core.windows.net'
+CONTAINER_NAME = 'democontainer1'
 blob_service_client = BlobServiceClient.from_connection_string(CONNECTION_STRING)
 
 def save_to_blob(file):
