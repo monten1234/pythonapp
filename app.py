@@ -3,8 +3,8 @@ from azure.storage.blob import BlobServiceClient
 
 
 # Get Azure Storage account details from environment variables
-azure_connection_string = "DefaultEndpointsProtocol=https;AccountName=mastergolfstorage;AccountKey=8gRRmfcAYMKhOxjNX5PIYrS6IFIFcx/Rzhx4wHtDbMuS6gY7ZIBXhMfi7LELh42FUUJ9UuZpGSBk+AStlPg4rw==;EndpointSuffix=core.windows.net"
-azure_container_name = "mastergolfcontainer"
+azure_connection_string = "DefaultEndpointsProtocol=https;AccountName=adachitakehiro;AccountKey=B3Px4aJ9dBCJJQAkCW6ZRDJFqYk7E6EYNgosHvbloU3+6QTNV2cmq/w3vFtpj0C4eMvA2VzscIv7+ASt61DFww==;EndpointSuffix=core.windows.net"
+azure_container_name = "emocontainer1"
 
 def main():
     st.title("File Upload to Azure Storage")
